@@ -1,0 +1,12 @@
+# build artifacts (make build -> bin/, make clean removes it)
+bin/
+
+# generated output (make test renders examples/output.html)
+examples/*.html
+
+# generated fixture (sqlite3 demo.db < create_demo.sql)
+examples/demo.db
+examples/demo.db-shm
+examples/demo.db-wal
+
+.DS_Store
